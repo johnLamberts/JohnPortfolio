@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import SEO from "../shared/seo";
-import ReactHelmet from "react-helmet";
+// import SEO from "../shared/seo";
 import ProfileInfo from "../shared/profile";
 import Navbar from "../components/Navbar";
 import { styled } from "styled-components";
@@ -52,7 +51,7 @@ export default function Homepage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [logoSize, oldLogoSize]);
 
-  const currentSEO = SEO.find((seo) => seo.page === "home");
+  // const currentSEO = SEO.find((seo) => seo.page === "home");
 
   const LogoStyled = styled.div`
     display: "flex";
@@ -64,7 +63,6 @@ export default function Homepage() {
     box-shadow: ${() =>
       stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none"};
   `;
-
 
   const StyledHomepage = styled.div`
     display: flex;
@@ -107,12 +105,6 @@ export default function Homepage() {
   `;
   return (
     <>
-      <ReactHelmet>
-        <title>{ProfileInfo.main.title}</title>
-        <meta name="description" content={currentSEO?.description} />
-        <meta name="keywords" content={currentSEO?.keywords.join(", ")} />
-      </ReactHelmet>
-
       <div className="page-content">
         <Navbar />
         <div className="content-wrapper">
