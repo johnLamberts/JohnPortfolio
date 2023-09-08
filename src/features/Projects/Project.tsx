@@ -30,10 +30,10 @@ export default function Project(props: {
   logo: string;
   title: string;
   description: string;
-  linkText: unknown;
+  //   linkText: unknown;
   link: string;
 }) {
-  const { logo, title, description, linkText, link } = props;
+  const { logo, title, description, link } = props;
   return (
     <>
       <StyledProject>
