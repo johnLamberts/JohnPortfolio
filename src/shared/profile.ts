@@ -4,15 +4,15 @@ const ProfileInfo = {
   main: {
     title: "John Lambert Works",
     name: "John Lambert ",
-    email: "mail@tharindu.dev",
+    email: "asisjohnlambert@gmail.com",
     logo: logo,
   },
 
   socials: {
     twitter: "https://twitter.com/",
-    github: "https://github.com/",
+    github: "https://github.com/johnLamberts",
     linkedin: "https://linkedin.com/",
-    instagram: "https://instagram.com/",
+    instagram: "https://www.instagram.com/_jjohnlambert/",
     stackoverflow: "https://stackoverflow.com/",
     facebook: "https://facebook.com/",
   },

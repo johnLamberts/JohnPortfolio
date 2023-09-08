@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import AppLayout from "./components/AppLayout";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 const TRACKING_ID = "";
 
@@ -20,6 +21,7 @@ function App() {
             <Route index path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
       </div>
