@@ -36,45 +36,54 @@ const ProfileInfo = {
 
   projects: [
     {
-      title: "Project 1",
+      title: "KapeJuan Cafe",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+        "An E-commerce for KapeJuan Cafe and it's great functionality adds the POS System for Cashier",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
       linkText: "View Project",
-      link: "https://github.com",
+      link: "/",
     },
 
     {
-      title: "Project 2",
+      title: "React Admin Dashboard",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+        "One of the few projects that I created in my early days learning ReactJS",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
       linkText: "View Project",
-      link: "https://github.com",
+      link: "/",
     },
 
     {
-      title: "Project 3",
+      title: "Wonderpets",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+        "A modern website that contains a great and better photography. It assembles all the beauties!",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       linkText: "View Project",
-      link: "https://github.com",
+      link: "https://johnlamberts.github.io/wonderpets.github.io/",
     },
 
     {
-      title: "Project 4",
+      title: "CMS for Wonderpets",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+        "A modern website that contains a great and better photography. It assembles all the beauties!",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
+      linkText: "View Project",
+      link: "https://johnlamberts.github.io/wonderpets.github.io/",
+    },
+
+    {
+      title: "Snoop Chat",
+      description:
+        "An apps that you can communicate with each other, it includes the video call and real-time communication",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       linkText: "View Project",
       link: "https://github.com",
     },
 
     {
-      title: "Project 5",
+      title: "Snoopes",
       description:
-        "Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+        "One of the few projects that I am still working with, and it's a social platform where you can read and learn tricks in JavaScript.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       linkText: "View Project",
       link: "https://github.com",
