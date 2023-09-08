@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import styled from "styled-components";
 import ProfileInfo from "../shared/profile";
-import { code, html } from "../assets/doodles";
 
 const StyledAboutContainer = styled.div`
   display: flex;
