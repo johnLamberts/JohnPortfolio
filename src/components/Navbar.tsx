@@ -79,9 +79,6 @@ const Navbar = () => {
                 <NavLinks to="/projects">Portfolio</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/articles">Articles</NavLinks>
-              </NavItem>
-              <NavItem>
                 <NavLinks to="/contact">Contact</NavLinks>
               </NavItem>
             </NavList>
